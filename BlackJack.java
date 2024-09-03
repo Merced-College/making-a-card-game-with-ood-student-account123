@@ -2,11 +2,12 @@
 
 import java.util.Random;
 import java.util.Scanner;
-
+import java.util.ArrayList.*;
 
 public class BlackJack {
 
   private static Card[] cards = new Card[52];
+  private static ArrayList<Card> card = new ArrayList<Card>();
 
   private static int currentCardIndex = 0;
   private static int suitIndex = 0;
